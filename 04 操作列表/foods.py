@@ -1,4 +1,5 @@
 my_foods = ['pizza', 'falafel', 'carrot cake']
+# falafel：炸豆丸子
 friend_foods = my_foods[:]
 
 print("My favorite foods are:")
