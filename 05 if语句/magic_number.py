@@ -10,3 +10,4 @@ print(age_0 >= 21 or age_1 >= 21)
 requested_toppings = ['mushrooms','onions','pineapple']
 print('mushrooms' in requested_toppings)
 print('pepperoni' in requested_toppings)
+# pepperoni：意大利辣香肠
