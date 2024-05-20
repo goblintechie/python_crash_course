@@ -49,6 +49,7 @@ else:
     print("Are you sure you want a plain pizza?")
 
 # 在if语句中将列表名用作条件表达式时，Python将在列表至少包含一个元素时返回True，并在列表为空时返回False。
+# 简言之，if加列表，空就是false，非空就是true
     
 available_toppings = ['mushrooms','olives','green peppers',
                       'pepperoni','pineapple','extra cheese']
