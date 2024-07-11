@@ -19,15 +19,21 @@ favorite_languages = {
     'phil':'python',
 }
 
-for name in favorite_languages.keys():
-    print(name.title())
+# for name in favorite_languages.keys():
+#     print(name.title())
 
 friends = ['phil','sarah']
-for name in favorite_languages.keys():
-    print(f"Hi {name.title()}")
+# for name in favorite_languages.keys():
+#     print(f"Hi {name.title()}")
+#     if name in friends:
+#         language = favorite_languages[name].title()
+#         print(f"\t{name.title()}, I see you love {language}!")
+
+for name,language in favorite_languages.items():
     if name in friends:
-        language = favorite_languages[name].title()
-        print(f"\t{name.title()}, I see you love {language}!")
+        print(f"Hi, {name.title()}")
+        print(f"\t{name.title()}, I see you love {language.title()}")
+
 
 # 按特定顺序遍历字典中的所有键
 

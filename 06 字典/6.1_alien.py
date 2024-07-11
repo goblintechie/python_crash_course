@@ -1,10 +1,14 @@
+# 下面是个简单的字典，存储了外星人的信息
 alien_0 = {'color':'green','points':5}
+
+# 访问并显示这些信息
 print(alien_0['color'])
 print(alien_0['points'])
+
 new_points = alien_0['points']
 print(f"You just earned {new_points} points!")
 
-# 字典是一种动态结构，可随时在其中添加键值对。
+# 6.2.2
 # 要添加键值对，可依次指定字典名、用方括号括起的键和相关联的值。
 
 alien_0['x_position'] = 0
@@ -24,5 +28,6 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 print(f"New position:{alien_0['x_position']}")
 
+# 删除键值对
 del alien_0['x_position']
 print(alien_0)

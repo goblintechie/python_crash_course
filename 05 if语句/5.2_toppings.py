@@ -1,3 +1,4 @@
+# 判断不相等，使用!=
 requested_topping = "mushrooms"
 if requested_topping != "anchovies":
     # anchovy：凤尾鱼
@@ -13,7 +14,6 @@ if 'extra cheese' in requested_toppings:
     print("Adding extra cheese.")
 
 print("\nFinished making your pizza!")
-
 
 if 'mushrooms' in requested_toppings:
     print("Adding mushrooms.")

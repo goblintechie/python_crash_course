@@ -1,3 +1,4 @@
+# 遍历元素
 magicians = ['alice','david','bob','carolina']
 for magician in magicians:
     print(magician)
