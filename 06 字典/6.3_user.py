@@ -33,10 +33,10 @@ for name,language in favorite_languages.items():
     if name in friends:
         print(f"Hi, {name.title()}")
         print(f"\t{name.title()}, I see you love {language.title()}")
-
+    if 'erin' not in favorite_languages.keys():
+        print("Erin, please take our poll.")
 
 # 按特定顺序遍历字典中的所有键
-
 for name in sorted(favorite_languages.keys()):
     print(f"{name.title()}, thank you for taking the poll.")
 
@@ -46,6 +46,6 @@ for language in favorite_languages.values():
 # 这种方法提取所有的值，但是没有考虑是否重复
 # 为了剔除重复项，可以使用集合set，每个元素都是独有的
 
+# 集合不会以特定顺序存储元素
 for language in set(favorite_languages.values()):
     print(language.title())
-# 集合不会以特定顺序存储元素
