@@ -11,3 +11,5 @@
 [05 if语句](https://github.com/baoyg/Python_Crash_Course/tree/main/05%20if%E8%AF%AD%E5%8F%A5)
 
 [06 字典](https://github.com/baoyg/Python_Crash_Course/tree/main/06%20%E5%AD%97%E5%85%B8)
+
+[07 用户输入和while循环](https://github.com/baoyg/Python_Crash_Course/tree/main/07%20%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E5%92%8Cwhile%E5%BE%AA%E7%8E%AF)
