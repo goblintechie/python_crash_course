@@ -2,5 +2,5 @@
 # 显示的消息很简单，例如：
 # Hello Eric, would you like to learn some Python today?
 
-name = "Bob"
-print(f"Hello {name}, would you like to learn some Python today?")
+NAME = "Bob"
+print(f"Hello {NAME}, would you like to learn some Python today?")
