@@ -2,6 +2,7 @@
 # 调用函数，一个印有默认字样的大号T恤，一个印有默认字样的中号T恤，以及其他字样的T恤
 
 def make_shirt(size='XL',words='I love Python'):
+    """T恤的尺码和默认字样"""
     print(f"The size of the shirt is {size}, and the words are {words}.")
 
 make_shirt()

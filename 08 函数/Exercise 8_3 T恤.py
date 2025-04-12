@@ -2,6 +2,7 @@
 # 应该打印一个句子，说明T恤的尺寸和字样
 
 def make_shirt(size,words):
+    """打印T恤的尺码和文字"""
     print(f"The size of the shirt is {size}, and the words are {words}.")
 
 make_shirt('XXL','Hello')

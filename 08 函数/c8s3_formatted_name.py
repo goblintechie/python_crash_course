@@ -17,26 +17,28 @@ print(musician)
 # 让实参变为可选
 # 实参变为可选，使用函数时在必要时提供额外信息
 
-def get_formatted_name(first_name,middle_name,last_name):
+def get_formatted_name_1(first_name,middle_name,last_name):
+    """实参可选"""
     full_name=f"{first_name} {middle_name} {last_name}"
     return full_name.title()
 
-musician = get_formatted_name('john','lee','hooker')
+musician = get_formatted_name_1('john','lee','hooker')
 print(musician)
 
 # 并非所有人有中间名，如果只提供了名和姓就无法正常工作
 # 为了让中间名可选，可给middle_name指定一个空的默认值，并将其移动到形参末尾
 # 在用户没有提供中间名的时候不使用这个形参
 
-def get_formatted_name(first_name,last_name,middle_name=''):
+def get_formatted_name_2(first_name,last_name,middle_name=''):
+    """空默认值"""
     if middle_name:
         full_name=f"{first_name} {middle_name} {last_name}"
     else:
         full_name=f"{first_name} {last_name}"
     return full_name.title()
 
-musician = get_formatted_name('jimi','hendrix')
+musician = get_formatted_name_2('jimi','hendrix')
 print(musician)
 
-musician = get_formatted_name('john','lee','hooker')
+musician = get_formatted_name_2('john','lee','hooker')
 print(musician)
