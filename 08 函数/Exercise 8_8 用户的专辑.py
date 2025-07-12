@@ -10,10 +10,11 @@ def make_album(singer_name,album_name):
 while True:
     print("请输入歌手名称和专辑名称，退出请输入'q'。")
     s_name = input("请输入歌手名称：")
+    if s_name == "q":
+        break
     a_name = input("请输入专辑名称：")
+    if a_name == "q":
+        break
     
     album = make_album(s_name,a_name)
     print(album)
-
-    if s_name or a_name == "q":
-        break
