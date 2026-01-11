@@ -1,5 +1,5 @@
 """
-
+10.4.1 编写一个程序读取存储在文件numbers.json中的数字，并将其打印到屏幕上。
 """
 import json
 import os

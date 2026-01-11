@@ -1,5 +1,5 @@
 """
-紧接着remember_me.py，再写一个程序，向存储的用户发出问候
+10.4.2 紧接着remember_me.py，再写一个程序，向存储的用户发出问候
 """
 import os
 import json

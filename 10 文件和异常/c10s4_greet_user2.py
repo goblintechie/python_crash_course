@@ -1,5 +1,5 @@
 """
-重构greet_user.py，将获取用户名的代码转移到另一个函数中
+10.4.3 重构greet_user.py，将获取用户名的代码转移到另一个函数中
 """
 import os
 import json
